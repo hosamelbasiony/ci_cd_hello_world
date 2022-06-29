@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "lint": "eslint index.js",
-    "push": "git add . && git commit -m='update' -n && git push origin master"
+    "push": "git add . && git commit -m='update' -n && git push origin main"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
