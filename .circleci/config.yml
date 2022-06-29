@@ -11,9 +11,9 @@ workflows:
       - lint:
           requires:
             - test
-      - analyze:
-          requires:
-            - lint
+      # - analyze:
+      #     requires:
+      #       - lint
 
 jobs:
   test:
