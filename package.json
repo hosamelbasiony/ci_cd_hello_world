@@ -8,7 +8,14 @@
   "scripts": {
     "dev": "nodemon index.js",
     "lint": "eslint index.js",
+    "test": "jest",
     "push": "git add . && git commit -m='update' -n && git push origin main"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "dependencies": {
     "body-parser": "^1.20.0",
@@ -17,6 +24,8 @@
   },
   "devDependencies": {
     "eslint": "^8.18.0",
-    "nodemon": "^2.0.18"
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.18",
+    "supertest": "^6.2.3"
   }
 }
