@@ -1,3 +1,6 @@
+console=>create user AdministratorAccess
+use its creds to create the following
+
 aws iam create-group --group-name Admins
 aws iam attach-group-policy --group-name Admins --policy-arn arn:aws:iam::aws:policy/AdministratorAccess
 aws iam list-attached-group-policies --group-name Admins
