@@ -7,3 +7,7 @@ aws iam add-user-to-group --user-name Bob --group-name Admins
 
 go to console => create credentials
 aws configure
+
+
+ASIA2OLBV3CLN7Y4OQVK
+YDnW60Erlwx9+DFL3O1wg86zkCkA5Fif4ZiFjYYQ
