@@ -1,0 +1,9 @@
+aws iam create-group --group-name Admins
+aws iam attach-group-policy --group-name Admins --policy-arn arn:aws:iam::aws:policy/AdministratorAccess
+aws iam list-attached-group-policies --group-name Admins
+
+aws iam create-user --user-name Bob
+aws iam add-user-to-group --user-name Bob --group-name Admins
+
+go to console => create credentials
+aws configure
